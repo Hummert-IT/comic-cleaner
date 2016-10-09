@@ -14,6 +14,10 @@
 		75DF98731DAAC22B00A1F14B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75DF98711DAAC22B00A1F14B /* Main.storyboard */; };
 		75DF987E1DAAC22B00A1F14B /* Comic_CleanerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF987D1DAAC22B00A1F14B /* Comic_CleanerTests.swift */; };
 		75DF98891DAAC22B00A1F14B /* Comic_CleanerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF98881DAAC22B00A1F14B /* Comic_CleanerUITests.swift */; };
+		75DF98971DAAC26F00A1F14B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75DF98961DAAC26F00A1F14B /* Info.plist */; };
+		75DF989B1DAAC28000A1F14B /* 7z.icns in Resources */ = {isa = PBXBuildFile; fileRef = 75DF98981DAAC28000A1F14B /* 7z.icns */; };
+		75DF989C1DAAC28000A1F14B /* rar.icns in Resources */ = {isa = PBXBuildFile; fileRef = 75DF98991DAAC28000A1F14B /* rar.icns */; };
+		75DF989D1DAAC28000A1F14B /* zip.icns in Resources */ = {isa = PBXBuildFile; fileRef = 75DF989A1DAAC28000A1F14B /* zip.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,13 +44,17 @@
 		75DF986D1DAAC22B00A1F14B /* Comic_Cleaner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Comic_Cleaner.xcdatamodel; sourceTree = "<group>"; };
 		75DF986F1DAAC22B00A1F14B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75DF98721DAAC22B00A1F14B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		75DF98741DAAC22B00A1F14B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75DF98791DAAC22B00A1F14B /* Comic CleanerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Comic CleanerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DF987D1DAAC22B00A1F14B /* Comic_CleanerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic_CleanerTests.swift; sourceTree = "<group>"; };
 		75DF987F1DAAC22B00A1F14B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75DF98841DAAC22B00A1F14B /* Comic CleanerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Comic CleanerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DF98881DAAC22B00A1F14B /* Comic_CleanerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic_CleanerUITests.swift; sourceTree = "<group>"; };
 		75DF988A1DAAC22B00A1F14B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75DF98961DAAC26F00A1F14B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75DF98981DAAC28000A1F14B /* 7z.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = 7z.icns; sourceTree = "<group>"; };
+		75DF98991DAAC28000A1F14B /* rar.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = rar.icns; sourceTree = "<group>"; };
+		75DF989A1DAAC28000A1F14B /* zip.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = zip.icns; sourceTree = "<group>"; };
+		75DF989E1DAAC29100A1F14B /* unar */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = unar; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 		75DF985C1DAAC22B00A1F14B = {
 			isa = PBXGroup;
 			children = (
+				75DF989E1DAAC29100A1F14B /* unar */,
 				75DF98671DAAC22B00A1F14B /* Comic Cleaner */,
 				75DF987C1DAAC22B00A1F14B /* Comic CleanerTests */,
 				75DF98871DAAC22B00A1F14B /* Comic CleanerUITests */,
@@ -97,11 +106,14 @@
 		75DF98671DAAC22B00A1F14B /* Comic Cleaner */ = {
 			isa = PBXGroup;
 			children = (
+				75DF98981DAAC28000A1F14B /* 7z.icns */,
+				75DF98991DAAC28000A1F14B /* rar.icns */,
+				75DF989A1DAAC28000A1F14B /* zip.icns */,
 				75DF98681DAAC22B00A1F14B /* AppDelegate.swift */,
 				75DF986A1DAAC22B00A1F14B /* ViewController.swift */,
 				75DF986F1DAAC22B00A1F14B /* Assets.xcassets */,
 				75DF98711DAAC22B00A1F14B /* Main.storyboard */,
-				75DF98741DAAC22B00A1F14B /* Info.plist */,
+				75DF98961DAAC26F00A1F14B /* Info.plist */,
 				75DF986C1DAAC22B00A1F14B /* Comic_Cleaner.xcdatamodeld */,
 			);
 			path = "Comic Cleaner";
@@ -235,8 +247,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75DF989C1DAAC28000A1F14B /* rar.icns in Resources */,
 				75DF98701DAAC22B00A1F14B /* Assets.xcassets in Resources */,
+				75DF989D1DAAC28000A1F14B /* zip.icns in Resources */,
 				75DF98731DAAC22B00A1F14B /* Main.storyboard in Resources */,
+				75DF98971DAAC26F00A1F14B /* Info.plist in Resources */,
+				75DF989B1DAAC28000A1F14B /* 7z.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
