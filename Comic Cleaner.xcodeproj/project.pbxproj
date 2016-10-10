@@ -18,6 +18,7 @@
 		75DF989C1DAAC28000A1F14B /* rar.icns in Resources */ = {isa = PBXBuildFile; fileRef = 75DF98991DAAC28000A1F14B /* rar.icns */; };
 		75DF989D1DAAC28000A1F14B /* zip.icns in Resources */ = {isa = PBXBuildFile; fileRef = 75DF989A1DAAC28000A1F14B /* zip.icns */; };
 		75DF989F1DAAC48600A1F14B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75DF98A11DAAC48600A1F14B /* Info.plist */; };
+		75F39A101DAADEA700A6731B /* Drag and drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F39A0F1DAADEA700A6731B /* Drag and drop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		75DF989E1DAAC29100A1F14B /* unar */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = unar; sourceTree = "<group>"; };
 		75DF98A21DAAC49400A1F14B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		75F39A0E1DAAC7A700A6731B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
+		75F39A0F1DAADEA700A6731B /* Drag and drop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Drag and drop.swift"; path = "Views/Drag and drop.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				75DF98A31DAAC63C00A1F14B /* Supporting Files */,
 				75DF98681DAAC22B00A1F14B /* AppDelegate.swift */,
 				75DF986A1DAAC22B00A1F14B /* ViewController.swift */,
+				75F39A111DAADEAE00A6731B /* Views */,
 				75DF986F1DAAC22B00A1F14B /* Assets.xcassets */,
 				75DF98711DAAC22B00A1F14B /* Main.storyboard */,
 				75DF98A11DAAC48600A1F14B /* Info.plist */,
@@ -144,6 +147,14 @@
 				75DF989A1DAAC28000A1F14B /* zip.icns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75F39A111DAADEAE00A6731B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				75F39A0F1DAADEA700A6731B /* Drag and drop.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75F39A101DAADEA700A6731B /* Drag and drop.swift in Sources */,
 				75DF986B1DAAC22B00A1F14B /* ViewController.swift in Sources */,
 				75DF986E1DAAC22B00A1F14B /* Comic_Cleaner.xcdatamodeld in Sources */,
 				75DF98691DAAC22B00A1F14B /* AppDelegate.swift in Sources */,
